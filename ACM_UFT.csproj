@@ -74,6 +74,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\Base\Application.cs" />
+    <Compile Include="Library\Base\Attribute.cs" />
+    <Compile Include="Library\Base\DirectoryBase.cs" />
+    <Compile Include="Library\Base\Logger.cs" />
+    <Compile Include="Library\Base\Registry.cs" />
     <Compile Include="UftDeveloperTest.cs" />
     <Compile Include="UnitTestClassBase.cs" />
     <None Include="App.config" />

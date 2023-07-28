@@ -1,4 +1,5 @@
-﻿using HP.LFT.SDK;
+﻿using ACM_UFT.Library.Base;
+using HP.LFT.SDK;
 using HP.LFT.Verifications;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -23,6 +24,7 @@ namespace ACM_UFT
         [TestMethod]
         public void TestMethod1()
         {
+            Application.LaunchApp(Product.Adsorption);
         }
 
         [TestCleanup]
